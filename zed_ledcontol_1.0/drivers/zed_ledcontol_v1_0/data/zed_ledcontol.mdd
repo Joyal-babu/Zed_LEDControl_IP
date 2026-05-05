@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER zed_ledcontol
+	OPTION supported_peripherals = (zed_ledcontol);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = zed_ledcontol;
+END DRIVER
